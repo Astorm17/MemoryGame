@@ -1,0 +1,18 @@
+Alright to start the server of my program run a command line argument giving the number of players per session
+
+an example of this would be 
+
+java MemoryGameServer -num 2
+
+this would open a server allowing only two players per session.
+
+To run the client, you simply just run the java file.
+
+“java MemoryGameClient”
+
+however there are some command line options I included such as:
+-help		:	this displays the instructions on how to play the game
+-server	:	this displays the servers ip address which is used to connect to it
+-img		: 	this displays the directory of where the images are kept
+
+that’s pretty much it, if you run the server without a command line argument, it just keeps running threads over and over again. So it’s probably in your best interest not to do that.
